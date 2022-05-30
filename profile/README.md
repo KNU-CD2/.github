@@ -1,5 +1,5 @@
-## Project Name
-> Development of a commercial district analysis system
+![Title](https://user-images.githubusercontent.com/33932392/170961366-364eb7a5-fc30-4b9c-9b24-4e73ccc75ec4.png)
+
 
 ## Introduction
 This project collaborates with the capstone design class at Kyungpook National University([KNU](https://knu.ac.kr)) and [CSP MOBILE LAB](http://cspmobilelab.com/).
