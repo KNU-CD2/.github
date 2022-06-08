@@ -6,6 +6,13 @@ This project collaborates with the capstone design class at Kyungpook National U
 
 We develop a `Real-time Data Distribution Pipeline System` with log data from KIOSK.
 
+<br/>
+
+## Demo Video
+https://youtu.be/noJt1Ua8xsM
+
+<br/>
+
 ## Architecture
 ### Hardware
 ![hardware_architecture](https://user-images.githubusercontent.com/33932392/170934202-9ec6365d-7a7f-4c8d-94ad-1f32aaf71da5.png)
@@ -23,12 +30,13 @@ We develop a `Real-time Data Distribution Pipeline System` with log data from KI
 - Elasticsearch 8.1.0
 - Kibana 8.1.0
 
+<br/>
 
 ## Cluster Configuration
 ### Elasticsearch Cluster
 ![elasticsearch_cluster](https://user-images.githubusercontent.com/33932392/170955600-7979b32c-d129-42ab-9649-b7717e225081.png)
 
-> Elastic search consists of three nodes.
+> Elasticsearch consists of three nodes.
 
 - c1-elastic (Data Node)
 - c2-elastic (Master node)
@@ -36,6 +44,16 @@ We develop a `Real-time Data Distribution Pipeline System` with log data from KI
 
 If a node acting as a master is disconnected from the network or goes down, one of the other master candidate nodes is elected as the master node and acts as the master node instead. The master candidate nodes share the information of the master node from the beginning, so the master role can be performed immediately.
 
+### Kafka Cluster
+<img width="1321" alt="kafka cluster" src="https://user-images.githubusercontent.com/33932392/172584842-b2af8dfd-b75b-4ac0-8f05-a5a5946627f4.png">
+
+> Kafka conssists of three nodes.
+
+- c1-kafka
+- c2-kafka
+- c3-kafka
+
+<br/>
 
 ## On-premise
 ### 
@@ -53,6 +71,8 @@ If a node acting as a master is disconnected from the network or goes down, one 
 - Etc - cat 6 LAN cable 30cm, Holder box case
 
 More detailed information is written [here](https://knu-cd2.github.io/blog/on-premise/2022/05/05/on-premise-hardware.html).
+
+<br/>
 
 ## Blogs
 We create a blog and poste how to overcome the challenges, especially security settings, faced by developing the system. We think this can contribute a little bit to the open-source ecosystem.
