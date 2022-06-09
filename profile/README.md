@@ -23,6 +23,7 @@ https://youtu.be/noJt1Ua8xsM
 
 
 ## Tech Stack
+- OS : Ubuntu server 20.04 LTS
 - Log generator: python 3.8.10
 - File Beats 8.1.0
 - Kafka 3.1.0
