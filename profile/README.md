@@ -35,7 +35,7 @@ https://youtu.be/noJt1Ua8xsM
 
 ## Cluster Configuration
 ### Elasticsearch Cluster
-<img width="1287" alt="elasticsearch_cluster" src="https://user-images.githubusercontent.com/33932392/172815390-f0137057-20b0-4f02-a606-52d17feebde6.png">
+<img width="1287" alt="elasticsearch_cluster" src="https://user-images.githubusercontent.com/33932392/173047742-3df743c5-aa21-4903-a420-9b2b8866456b.png">
 
 > Elasticsearch consists of three nodes.
 
