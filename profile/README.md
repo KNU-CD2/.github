@@ -76,6 +76,6 @@ More detailed information is written [here](https://knu-cd2.github.io/blog/on-pr
 <br/>
 
 ## Blogs
-We create a blog and poste how to overcome the challenges, especially security settings, faced by developing the system. We think this can contribute a little bit to the open-source ecosystem.
+We create a blog and post how to overcome the challenges, especially security settings, faced by developing the system. We think this can contribute a little bit to the open-source ecosystem.
 
 [Here is the blog link.](https://knu-cd2.github.io/blog/)
